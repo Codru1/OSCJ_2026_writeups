@@ -5,8 +5,8 @@ Daca aplicam filtrul http pe wireshark putem observa
 ![fakebook](facebook.png) <br>
 si <br>
 ![x](x.png) <br>
-**Answer:OSC{facebook.com,x.com}**
+**Answer:OSC{facebook.com,x.com}** <br>
 ##Care este adresa IP a C2-ului?
-Fiind un server C2 putem sa asumam ca va avea un volum ridicat de requesturi. Uitandune in statistici putem incerca IP-urile cu cele mai multe requesturi:
-![ips]()
-**Answer:OSC{147.45.44.42}**
+Fiind un server C2 putem sa asumam ca va avea un volum ridicat de requesturi. Uitandune in statistici putem incerca IP-urile cu cele mai multe requesturi: <br>
+![ips](ips.png) <br>
+**Answer:OSC{147.45.44.42}** <br>
