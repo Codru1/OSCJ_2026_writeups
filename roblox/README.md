@@ -15,3 +15,8 @@ Uitandude la File -> Export Objects -> HTTP putem vedea un fisier suspicous "Tri
 ![Tricky](Tricky.png) <br>
 De aici puteam vedea numarul packetului ca fiind 69986 <br>
 **Amswer:OSC{69986}** <br>
+## Care este arrival time in pachetul ce contine fisierul .rar? <br>
+Mergem la packetul cu numarul specificat precedant si vedem epotch time arrival
+![time.png](time.png) <br>
+**Answer:OSC{1735330355.624480000}**<br>
+## Ce "motiv" primeste C2-ul astfel incat sa autorizeze descarcarea malware-ului pe computerul infectat?
