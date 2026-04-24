@@ -32,4 +32,9 @@ Daca le decodam primim: <br>
 si <br>
 ![decode1](decode2.png) <br>
 **Answer:OSC{worker599chmel:iloveit}**
+## Care este numele cheat-ului folosit pentru roblox?
+In requestul 3517 putem sa vedem zipul "Solara.zip" <br>
+![solara.png](solara.png) <br>
+Solara este un cheat popular pentru Roblox <br>
+**Answer:OSC{solara}**
 
