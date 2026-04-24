@@ -27,7 +27,7 @@ Tot requestul este: <br>
 > /?reason=d29ya2VyNTk5Y2htZWw=:aWxvdmVpdA== <br>
 
 De aici putea vedea ca **d29ya2VyNTk5Y2htZWw=** si **aWxvdmVpdA==** au egaluri la final ceea ce indica ca sunt base64 encoded <br>
-Daca le decodam primim:
+Daca le decodam primim: <br>
 ![decode1](decode1.png) <br>
 si <br>
 ![decode1](decode2.png) <br>
