@@ -10,3 +10,8 @@ si <br>
 Fiind un server C2 putem sa asumam ca va avea un volum ridicat de requesturi. Uitandune in statistici putem incerca IP-urile cu cele mai multe requesturi: <br>
 ![ips](ips.png) <br>
 **Answer:OSC{147.45.44.42}** <br>
+## Identificați numărul pachetului care contine transferul fisierului/payloadului adițional descarcat de malware.
+Uitandude la File -> Export Objects -> HTTP putem vedea un fisier suspicous "Tricky.rar" <br>
+![Tricky](Tricky.png) <br>
+De aici puteam vedea numarul packetului ca fiind 69986 <br>
+**Amswer:OSC{69986}** <br>
