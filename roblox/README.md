@@ -16,7 +16,20 @@ Uitandude la File -> Export Objects -> HTTP putem vedea un fisier suspicous "Tri
 De aici puteam vedea numarul packetului ca fiind 69986 <br>
 **Amswer:OSC{69986}** <br>
 ## Care este arrival time in pachetul ce contine fisierul .rar? <br>
-Mergem la packetul cu numarul specificat precedant si vedem epotch time arrival
+Mergem la packetul cu numarul specificat precedant si vedem epotch arrival time 
 ![time.png](time.png) <br>
 **Answer:OSC{1735330355.624480000}**<br>
 ## Ce "motiv" primeste C2-ul astfel incat sa autorizeze descarcarea malware-ului pe computerul infectat?
+Uitandune in continuare in requesturile HTTP puteam vedea una care contine "?reason=..." <br>
+![reason](reason.png)<br>
+Tot requestul este: <br>
+
+> /?reason=d29ya2VyNTk5Y2htZWw=:aWxvdmVpdA== <br>
+
+De aici putea vedea ca **d29ya2VyNTk5Y2htZWw=** si **aWxvdmVpdA==** au egaluri la final ceea ce indica ca sunt base64 encoded <br>
+Daca le decodam primim:
+![decode1](decode1.png) <br>
+si <br>
+![decode1](decode2.png) <br>
+**Answer:OSC{worker599chmel:iloveit}**
+
