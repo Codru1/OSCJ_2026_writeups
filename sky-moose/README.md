@@ -11,6 +11,7 @@ Uitandu-ne aici putem observa un domeniu suspicious numit "berlin101".
 
 Daca cautam berlin101.com pe Google, primul rezultat arata ca acest domeniu a fost implicat in campanii malware asociate cu XWorm.   <br>
 ![berlin](berlin101.png)
+
 Articol relevant:  
 https://www.fortinet.com/uk/blog/threat-research/deep-dive-into-new-xworm-campaign-utilizing-multiple-themed-phishing-emails  
 
